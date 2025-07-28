@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "AI Summarizer",
+  "version": "1.0",
+  "description": "Summarize selected text using the Summarizer API",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "48": "icon.png"
+  }
+}
